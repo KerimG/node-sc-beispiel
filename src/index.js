@@ -30,6 +30,7 @@ app.get('/db', async (req, res) => {
       }
       return value;
     });
+    connection.close();
 
     res.setHeader('Content-Type', 'application/json');
     res.send(json);
