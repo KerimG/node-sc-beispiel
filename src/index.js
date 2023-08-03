@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const odbc = require('odbc');
-const port = 10123;
+const port = process.env.PORT || 10123;
 
 // Den DSN String für ODBC entsprechend anpassen
 const connectionString = 'DSN=*LOCAL';
