@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const odbc = require('odbc');
-const port = 3000;
+const port = 10123;
 const connectionString =
   'DSN=IBMIDEV;Driver=IBM i Access ODBC Driver;Password=********;UserID=GUENEY;CCSID=1208';
 
