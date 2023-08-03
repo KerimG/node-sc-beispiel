@@ -3,6 +3,8 @@ const app = express();
 const cors = require('cors');
 const odbc = require('odbc');
 const port = 10123;
+
+// Den DSN String für ODBC entsprechend anpassen
 const connectionString =
   'DSN=IBMIDEV;Driver=IBM i Access ODBC Driver;Password=********;UserID=GUENEY;CCSID=1208';
 
