@@ -1,0 +1,17 @@
+{
+  "name": "node-sc-beispiel",
+  "version": "0.1.0",
+  "description": "Beispielprojekt für den TechKnowLetter Service Commander Artikel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "Kerim Güney <kerim@gueney.io> (https://gueney.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0"
+  }
+}
